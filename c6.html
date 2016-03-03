@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formular</title>
+	<meta charset-"UTF-8">
+</head>
+<body>
+ 	<form action = "register.php" method="post">
+		<label>
+			Name <br>
+			<input type = "text" name="username" required>
+		</label>
+		<br>
+		<label>
+			Last Name <br>
+			<input type = "text" name = "lastname"  required>
+		</label>
+		<br>
+		<label>
+			Year of birth <br>
+			<input type = "date" name = "yearofbirth" required>
+		</label>
+		<br>
+		<label>
+			Email <br>
+			<input type = "email" name = "email" required>
+		</label>
+		<br>
+		<label>
+			Password <br>
+			<input type = "password" name = "pwd1" required>
+		</label>
+		<br>
+		<label>
+			Re-type Password <br>
+			<input type = "password" name = "pwd2" required>
+		</label>
+		<br>
+		<label>
+			Country <br>
+			<select name = "country">
+				<option value="Macedonia">Macedonia</option>
+				<option value="Serbia">Serbia</option>
+				<option value="Croatia">Croatia</option>
+				<option value="Bulgaria">Bulgaria</option>
+				</select>
+		</label>
+		<br>
+
+		<button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>

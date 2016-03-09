@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<form method="post" action="calculator.php">
+ 			<label>
+ 				<input type="text" name="value1" required>
+ 			</label>
+ 	
+			<select name="operation">
+				<option>+</option>
+				<option>-</option>
+				<option>*</option>
+				<option>/</option>
+			</select>
+			
+			<label>
+ 				<input type="text" name="value2" required>
+ 			</label>
+			
+			<button type="submit" name="answer" id="answer" value="answer">Calculate</button>
+		</form>
+	</body>
+</html>
+
+<style>
+
+input {
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  transition: border 0.5s;
+  border-bottom: solid 2px #969696;
+}
+
+select {
+   background: transparent;
+   width: 35px;
+   padding: 5px;
+   font-size: 20px;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: button;
+   }
+
+
+button {
+	color: #fff;
+	font-size: 12px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px 10px 5px 10px;
+	background-color: #96c8cf;
+	display: block;
+	border:none;
+	border-radius: 2px;
+	margin-top: 8px;
+	margin-left: 13%;
+}
+
+
+</style>
